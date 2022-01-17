@@ -12,12 +12,14 @@ p{
 }
 
 .header{
+    top: 0;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.4)),url(/imatges/markus-spiske-iar-afB0QQw-unsplash.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.4)),url(../imatges/background.jpg);
     background-position: center;
     background-size: cover;
-    position: relative;
+    position: fixed;
 }
+
 .header p{
     font-size: 25px;
     color: #36ff58;
@@ -68,11 +70,11 @@ nav img{
 /*------INFORMACION---------*/
 .row{
     flex-basis: 20%;
-    margin-top: 2%;
     display: flex;
     width: 80%;
     color: rgb(0, 0, 0);
     margin-left: 10% ;
+    margin-top: 10%;
     text-align: center;
     flex-direction: column;
 }
