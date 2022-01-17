@@ -74,7 +74,8 @@ nav img{
 .footer{
     width: 100%;
     text-align: center;
-    padding: 30px 0;
+    padding: 20px 0;
+    background-image: linear-gradient(#ffff,rgb(2, 195, 99));
 }
 
 .footer h4{
@@ -84,13 +85,13 @@ nav img{
 }
 
 .iconos .fa{
-    color:#36ff58;
+    color:#000000;
     margin: 0 13px;
     cursor: pointer;pad: 18px 0;
 }
 
 .fa-heart-o{
-    color: #36ff58;
+    color: #000000;
 }
 
 .footer p{
