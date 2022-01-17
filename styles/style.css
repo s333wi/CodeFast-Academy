@@ -7,11 +7,12 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: url(../imatges/background.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.4)),url(../imatges/background.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
 }
+
 .header p{
     padding-top: 45px;
     font-size: 30px;

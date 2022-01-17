@@ -12,10 +12,7 @@ p{
 }
 
 .header{
-    z-index:999;
     top: 0;
-    right: 0;
-    left: 0;
     width: 100%;
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.4)),url(../imatges/background.jpg);
     background-position: center;
@@ -74,11 +71,11 @@ nav img{
 /*------INFORMACION---------*/
 .row{
     flex-basis: 20%;
-    margin-top: 2%;
     display: flex;
     width: 80%;
     color: rgb(0, 0, 0);
     margin-left: 10% ;
+    margin-top: 12%;
     text-align: center;
     flex-direction: column;
 }
