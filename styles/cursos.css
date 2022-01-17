@@ -12,12 +12,17 @@ p{
 }
 
 .header{
+    z-index:999;
+    top: 0;
+    right: 0;
+    left: 0;
     width: 100%;
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.4)),url(../imatges/background.jpg);
     background-position: center;
     background-size: cover;
-    position: relative;
+    position: fixed;
 }
+
 .header p{
     font-size: 25px;
     color: #36ff58;
