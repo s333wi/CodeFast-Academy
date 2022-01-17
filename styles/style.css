@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+    
 }
 
 .header{
@@ -16,7 +17,7 @@
 .header p{
     padding-top: 45px;
     font-size: 30px;
-    color: #36ff58;
+    color: #36ff58af;
     opacity: 0.8;
 }
 
@@ -129,12 +130,12 @@ p{
 
 .curso-col{
     flex-basis: 30%;
-    background: #fff3f3;
+    background: #02bb40;
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
     box-sizing: border-box;
-    transition: 0.7s;
+    box-shadow: 0 0 30px 0px rgba(0, 0, 0, 0.342);
 }
 a{
     text-decoration: none;
@@ -145,11 +146,6 @@ h3{
     text-align: center;
     font-weight: 600;
     margin: 10px;
-}
-
-.curso-col:hover{
-    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
-
 }
 
 @media(max-width: 700px){
@@ -188,7 +184,8 @@ h3{
 .footer{
     width: 100%;
     text-align: center;
-    padding: 30px 0;
+    padding: 20px 0;
+    background-image: linear-gradient(#ffff,rgb(2, 195, 99));
 }
 
 .footer h4{
@@ -198,13 +195,13 @@ h3{
 }
 
 .iconos .fa{
-    color:#36ff58;
+    color:#000000;
     margin: 0 13px;
     cursor: pointer;pad: 18px 0;
 }
 
 .fa-heart-o{
-    color: #36ff58;
+    color: #000000;
 }
 
 .footer p{
