@@ -115,7 +115,7 @@ h1{
 }
 
 p{
-    color: grey;
+    color: rgb(80, 80, 80) ;
     font-size: 14px;
     font-weight: 300;
     line-height: 22px;
@@ -130,13 +130,17 @@ p{
 
 .curso-col{
     flex-basis: 30%;
-    background: #02bb40;
+    background: #03e74f;
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
     box-sizing: border-box;
     box-shadow: 0 0 30px 0px rgba(0, 0, 0, 0.342);
 }
+
+.curso-col p{
+}
+
 a{
     text-decoration: none;
     cursor: pointer;
@@ -196,7 +200,8 @@ h3{
 
 .iconos .fa{
     color:#000000;
-    margin: 0 13px;
+    margin: 0 10px;
+    padding-bottom: 10px;
     cursor: pointer;pad: 18px 0;
 }
 
