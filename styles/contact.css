@@ -70,6 +70,71 @@ nav img{
     width: 100%;
 }
 
+/*-------FORMULARIO----------*/
+.contact-box{
+    width: 500px;
+    background-color: #fff;
+    box-shadow: 0 0 30px 0px rgba(0, 0, 0, 0.342);
+    margin-top: 12%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contact-box h1{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+form{
+    margin: 10%;
+}
+
+form p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+form h1{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.input-field{
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #777;
+    border-radius: 10px;
+    outline: none;
+}
+
+.textarea-field{
+    height: 150px;
+    padding-top: 10px;
+    max-width: 400px;
+}
+
+#check-field{
+font-size: 14px;
+}
+
+.boton{
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    margin-left: 40%;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    padding: 10px;
+    background-color: #03e74f;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+
 /*-----------FOOTER-----------*/
 .footer{
     width: 100%;
